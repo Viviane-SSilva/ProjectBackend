@@ -12,7 +12,7 @@ describe("Router test (e2e)", async () => {
 		await app.close();
 	});
 
-	it("Espera-se que seja possivel receber um json ok da roda /test", async () => {
+	it("Espera-se que seja possivel receber um json ok da rota /test", async () => {
 		const response = await request(app.server).get("/teste");
 
 
